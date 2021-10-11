@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arodora Pro';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    background: var(--bg);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.dontscroll {
+    overflow: hidden;
+}

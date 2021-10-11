@@ -1,0 +1,103 @@
+.hero__welcome {
+  font-family: "Next Art";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  margin: 161px 0 5px;
+  color: var(--text);
+}
+
+.hero__title {
+  font-family: "Next Art";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 82px;
+  max-width: 460px;
+  width: 100%;
+  color: var(--text);
+}
+
+.hero__sub-title {
+  max-width: 395px;
+  width: 100%;
+  margin: 8px 0 22px;
+}
+
+.btn {
+  font-family: "Next Art";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000 !important;
+  padding: 14px 38px 13px 41px;
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+  border-radius: 6px;
+}
+
+.hero__pic {
+  position: relative;
+}
+
+.hero__img {
+  margin: 12px 15px 0 0;
+  z-index: 1;
+}
+
+.neon {
+  position: relative;
+}
+
+.neon__item {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Next Art";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  color: #00c4f0;
+  z-index: -1;
+}
+
+.neon__item:first-child::before {
+  content: "</";
+}
+
+.ellipse {
+  position: absolute;
+  right: -31px;
+  bottom: 0;
+  width: 575px;
+  height: 575px;
+  border-radius: 50%;
+  border: 67px solid #00c4f0;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 152px 0px rgba(0, 196, 240, 0.42);
+  z-index: -2;
+}
+
+.neon__item:first-child {
+  top: 143px;
+  left: 5px;
+}
+
+.neon__item:nth-child(2) {
+  top: 310px;
+  left: -70px;
+}
+
+.neon__item:nth-child(3) {
+  top: 498px;
+  left: -39px;
+}
+
+.neon__item:nth-child(4) {
+  top: 112px;
+  left: 403px;
+}

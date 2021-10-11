@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Arodora Pro';
+    src: url('../fonts/ArodoraPro-Light.woff2') format('woff2'),
+        url('../fonts/ArodoraPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next Art';
+    src: url('../fonts/NEXTART-Bold.woff2') format('woff2'),
+        url('../fonts/NEXTART-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next Art';
+    src: url('../fonts/NEXTART.woff2') format('woff2'),
+        url('../fonts/NEXTART.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next Art';
+    src: url('../fonts/NEXTART-SemiBold.woff2') format('woff2'),
+        url('../fonts/NEXTART-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('../fonts/NicoMoji-Regular.woff2') format('woff2'),
+        url('../fonts/NicoMoji-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

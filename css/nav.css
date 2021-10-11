@@ -1,0 +1,33 @@
+.logo__img {
+  margin: 26px 10px 26px 0;
+}
+
+.logo__title {
+  font-family: "Nico Moji";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  margin-right: 211px;
+}
+
+.nav__link a {
+  font-family: "Arodora Pro";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--text);
+  padding-bottom: 1px;
+  transition: border-bottom 0.3s ease;
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 146px;
+}
+
+.nav__link:last-child {
+  margin-right: 60px;
+}
+
+.nav__items a:hover {
+  border-bottom: 1px solid rgb(226, 163, 0);
+}
